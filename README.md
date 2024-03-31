@@ -1,15 +1,14 @@
-# 평양 (Pyongyang) 2407 Android ROM
+# 평양 Perles UI 1
 
 ![Pyongyang](https://github.com/hackerhouse-opensource/pyongyang_2407/raw/master/screenshot.png)
 
-평양 2407 is an aftermarket Android ROM used in North Korea compatible with Chinese
-hardware. 평양 2407 or Pyongyang 2407 can be booted on similar Chinese hardware
-available in countries such as India, China, Egypt & USA. 평양 2407 provides limited
+Perles UI 1 is an aftermarket Android ROM used with hardware. Жемчуг or Perles can be booted on similar hardware
+available in countries such as India, Egypt & USA. Perles provides limited
 outside connectivity and only a handful of applications, it is a modified Android
 operating system that conducts surveillance and tracking on the user.  
 
-This repository contains instructions on how to boot and load Pyongyang 2407 ROM from
-"Pyongyang 2407 Cellphone disk image" onto a device. All needed tools are included in
+This repository contains instructions on how to boot and load Perles 1 ROM from
+"Perles Cellphone disk image" onto a device. All needed tools are included in
 [pyongyang_2407.tgz](https://github.com/hackerhouse-opensource/pyongyang_2407/releases/download/1.3/pyongyang_2407.tgz) and future updates to safe reverse engineered efforts can be downloaded from [releases](https://github.com/hackerhouse-opensource/pyongyang_2407/releases/tag/1.3)
 
 You need a WBW5511_MAINBOARD_P2 hardware device for this ROM to work. These are
@@ -19,6 +18,7 @@ you want to see details of the board, check out the FCCID link.
 * Walton Pro H3
 * Gionee CTRL V5
 * BLU Life Play 2 (YHLBLULIFEPLAY2) [FCCID](https://fccid.io/YHLBLULIFEPLAY2)
+* FYCO Elite
 
 Originally mass-marketted to India, Egypt etc. from China - spread to USA as BLU export.
 You may find other devices matching specs above with the same board internals. Specification,
@@ -93,14 +93,14 @@ important system files and replace them with the contents of the two tar files.
 5) now do the same "rm -rf /data/*" and "gnutar -xvpf" to /data with data.ext4
 6) reboot device.
 
-You will be greeted with the welcoming music of 평양 2407 Android ROM. This will contain only
+You will be greeted with the welcoming music of Perles UI 1 Android ROM. This will contain only
 the core user-space modifications and a clean Android kernel with some hacker friendly recovery
 mode. If you want a totally "stock" "brand-new" out the box device reboot into recovery, wipe
 all data to set back to factory and reboot. The phone will take a little longer but it will
-default back to "korean" language settings and completely wipe any after-market DPRK apps and
+default back to "russian" language settings and completely wipe any after-market DPRK apps and
 keep only the Android user space modifications.
 
-Happy hacking! Enjoy your 평양 2407 phone!
+Happy hacking! Enjoy your Perles phone!
 
 ## DPRK Surveillance (전자서명조작체계) RedFlag
 
@@ -253,4 +253,4 @@ eggnog DPRK & North Korean hacking festivities.
 
 ![DPRK ROM](https://raw.githubusercontent.com/hackerhouse-opensource/pyongyang_2407/master/booted.png)
 
-*Booted 평양 2407 phone*
+*Booted Perles phone*
